@@ -1,14 +1,12 @@
 <template>
-  <div
-    class="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-gray-100 to-gray-200 text-gray-800 p-6"
-  >
+  <div class="flex flex-col items-center justify-center p-6">
     <UCard
       class="max-w-xl w-full text-center p-12 bg-white border border-gray-300 rounded-3xl shadow-2xl"
     >
       <div class="flex justify-center mb-8">
         <UIcon
           name="i-heroicons-rocket-launch"
-          class="w-20 h-20 text-blue-500"
+          class="w-20 h-20 text-primary"
         />
       </div>
 
@@ -36,10 +34,6 @@
         </div>
       </div>
     </UCard>
-
-    <footer class="mt-10 text-sm text-gray-500">
-      © {{ new Date().getFullYear() }} Il tuo sito — Tutti i diritti riservati.
-    </footer>
   </div>
 </template>
 

@@ -24,10 +24,10 @@ useSeoMeta({
 </script>
 
 <template>
-  <UApp :toaster="{ expand: false }">
-    <!-- <AppHeader /> -->
+  <UApp :toaster="{ expand: false }" class="min-h-screen">
+    <AppHeader />
 
-    <UMain>
+    <UMain class="bg-linear-to-b from-gray-100 to-gray-200 text-gray-800">
       <NuxtPage />
     </UMain>
 
