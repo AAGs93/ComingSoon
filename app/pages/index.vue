@@ -28,7 +28,7 @@
             name="i-heroicons-wrench-screwdriver"
             class="w-6 h-6 text-gray-500"
           />
-          <span>In fase di sviluppo</span>
+          <span>di proprietà di PM Auto.</span>
         </div>
         <div class="flex items-center justify-center gap-2 mt-2">
           <UIcon name="i-heroicons-clock" class="w-6 h-6 text-gray-500" />
